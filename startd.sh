@@ -1,5 +1,5 @@
 #!/bin/bash
-fs_mount="/root/docker-ssr/conf"
+fs_mount=$(cd `dirname $0` && pwd -P)/conf
 ssr_port="9090"
 ssr_config=config
 cntr=lovechen/love_ssr_lite
