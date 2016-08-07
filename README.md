@@ -2,10 +2,14 @@
 
 安装方法
 
+
+#Sync script
 git clone https://github.com/LOVEChen/love_ssr_lite.git
 
+#Download the docker images
 docker pull lovechen/love_ssr_lite
 
+#modify the password etc.(don't change the port)
 vi conf/config.sh
 
 change "your_password" with any strings you want
